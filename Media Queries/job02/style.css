@@ -1,0 +1,21 @@
+body{
+    background: #88c1d0;
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1920px){
+    body{
+        background: #ffca4b;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1680px){
+    body{
+        background: #275fa0;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    body{
+        background: #ffffff;
+    }
+}

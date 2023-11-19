@@ -1,0 +1,22 @@
+@media screen and (max-width:767px) {
+    #etatmenu,
+  nav ul,
+  nav .close {
+    display: none;
+  }
+  #etatmenu:checked ~ nav :is(ul, .close) {
+    display: block;
+  }
+  #etatmenu:checked ~ nav .open {
+    display: none;
+  }
+  #menu-basique{
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+    #burger{
+        opacity: 0;
+    }
+}
